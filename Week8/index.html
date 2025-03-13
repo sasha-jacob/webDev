@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello JavaScript</title>
+        <link rel="stylesheet" href="JS.css"/>
+    </head>
+    <body>
+        <div class="center">
+            <button type="button">Player 1: Unknown</button>
+        </div>
+        <script>
+            function updateName(){
+                const name = prompt("Enter a name!");
+                button.textContent = 'Player 1: ${name}';
+            }
+            const button = document.querySelector("button");
+            button.addEventListener("click", updateName)
+        </script>
+    </body>
+</html>
