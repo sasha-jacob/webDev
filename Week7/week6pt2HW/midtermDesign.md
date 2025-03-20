@@ -11,3 +11,6 @@
 - Wireframe/sitemap:
 ![website wireframe](productivityWeb.png)
 
+
+-Part Two of my wireframing!
+![website wireframe pt2](/Users/sashajacob/Desktop/webDev/Week7/week6pt2HW/Gallery/img/wireframeSketch.jpg)
