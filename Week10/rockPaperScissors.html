@@ -20,17 +20,27 @@
         const gameChoices = ["Rock", "Paper", "Scissors"];
         const userGuess = ;
 
+        document
+        .getElementById("Rock")
+        .addEventListener("click", () => randomChoices("Rock"));
+        document
+        .getElementById("Paper")
+        .addEventListener("click", () => randomChoices("Paper"));
+        scissors= document.getElementById("Scissors")
+        .addEventListener("click", () => randomChoices("Scissors"));
+
         function randomChoices(gameChoices){
             const randomIndex = Math.floor(Math.random()* gameChoices.length);
             return gamesChoices[randomIndex];
             const computerAnswer = gamesChoices[randomIndex];
         }
-        
+
         function checkGuess(){
             //const = results
             if(userGuess == computerAnswer){
                 tie.textContent = "It's a tie! Select another option!";  
             }
+
 
             else if(userGuess != computerAnswer){
                 if(computerAnswer == "Rock" && userGuess == "Scissors"){
