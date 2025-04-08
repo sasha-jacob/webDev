@@ -61,7 +61,7 @@ else {
 console.log(isLightOn);
 
 //Task 7 - Counting Loop
-
+<button onclick="countByTwo()">Track Each Value</button>
 function countByTwo(num){
     for(i = 0; i <= 20; i+=2){
         //HTML button should display each value
