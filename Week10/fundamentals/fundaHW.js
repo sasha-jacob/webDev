@@ -29,6 +29,7 @@ calculate(25,45);
 function fahrenheitToCelsius(fValue){
  let celsiusFormula = (fValue - 32) * (5 / 9); 
 }
+
 fahrenheitToCelsius(10);
 
 function celsiusToFahrenheit(cValue){
@@ -38,8 +39,33 @@ celsiusToFahrenheit(15);
 
 //Task 5 - String Manipulation
 
+function manipulation(){
+    let userAnswer = prompt("Enter your first name:");
+    let newUserAnswer = userAnswer.toUpperCase();
+    let userLength = userAnswer.length;
+    alert("In" + newUserAnswer + ", there are" + userLength + "characters in your statement.");
+}
+
+manipulation();
+
 //Task 6 - Toggle Switch
+
+var isLightOn = true;
+if (isLightOn == true){
+    var isLightOn = false;
+}
+else {
+    var isLightOn = true;
+}
+
+console.log(isLightOn);
 
 //Task 7 - Counting Loop
 
-//Bonus Challenge - Contact Forms
+function countByTwo(num){
+    for(i = 0; i <= 20; i+=2){
+        //HTML button should display each value
+    }
+}
+
+countByTwo(20);
